@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html{
+    font-size: 67.4%;
+}
+body{
+    background-image: url('gym-img.jpg');
+}
+.main-nav{
+    padding: 0.5rem 2rem;
+    background: #1d1818;
+}
+.main-ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.8rem;
+}
+.main-ul li a{
+    color: white;
+    transition: 0.5s ease-in;
+}
+.main-ul li a:hover{
+    color: rgb(169, 165, 165);
+}
+
+.container{
+    padding: 2rem 0;
+    width: 80rem;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+#gym-form{
+    text-align: left;
+    margin: 3rem auto;
+    width: 35rem;
+}
+#gym-form input, button, textarea, select{
+    width: 35rem;
+    display: block;
+    margin-top: 1rem;
+    border: 2px solid black;
+    padding: 1rem 1.5rem;
+}
+
+#gym-form .gender{
+    display: inline !important;
+    width:1rem;
+}
+textarea{
+    resize: none;
+}
+#gym-form span{
+    font-size: 1.5rem;
+}

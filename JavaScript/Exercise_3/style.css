@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    background-color: rgb(77, 77, 77);
+    text-align: center;
+    padding: 10px;
+}
+.container h1{
+    border: 1px solid rgba(255, 255, 255, 0.577);
+    background-color: rgba(255, 255, 255, 0.978);
+    border-radius: 20px;
+    box-shadow: -2px 2px 5px rgba(255, 255, 255, 0.577),
+                2px -2px 5px rgba(255, 255, 255, 0.577);
+    text-shadow: 1px 1px black;
+}
+.container p{
+    margin-top: 30px;
+    color: white;
+    border: 2px solid white;
+    font-size: 30px;
+    padding: 10px 30px;
+    display: inline-block;
+    width: 50vw;
+    background-color: black;
+}

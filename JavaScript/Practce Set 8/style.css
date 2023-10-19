@@ -1,0 +1,14 @@
+#bulb{
+    height: 50Vh;
+    width: 30vw;
+}
+.on{
+    background: url("/Practce Set 8/Bulb On.jpg");
+    background-repeat: no-repeat;
+}
+.off{
+    position: relative;
+    background: url("/Practce Set 8/Bulb off.jpg");
+    background-repeat: no-repeat;
+    left: 1.9%;
+}

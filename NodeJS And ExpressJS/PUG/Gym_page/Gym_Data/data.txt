@@ -1,0 +1,18 @@
+Name: Arbaz khan
+Age: 18
+Gender: gender
+Resident Of: S-120/B-59,
+Vivekanand Camp Part-II,
+New Delhi-110021
+Mobile No.: 9953532472
+Plan:	9999/year
+
+Name: Ravi Kumar
+Age: 19
+Gender: gender
+Resident Of: a-23,
+aligao,
+delhi- 110058
+Mobile No.: 83764923872
+Plan:	599/Week
+

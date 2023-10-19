@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-img a img{
+    height: 50px;
+    border-radius: 100%;
+}
+.header-container{
+    height: 100vh;
+    width: 100vw;
+    background: url("/Practice Set 7/background.jpg"), linear-gradient(rgb(128, 126, 126), rgb(128, 126, 126));
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 2%;
+    padding: 0 50px;
+}
+.main-nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: rgb(149, 146, 146);
+}
+#search{
+    border-radius: 10px;
+    padding: 0 10px;
+    background-color: rgb(220, 235, 249);
+}
+
+.main-nav ul li::after{
+    content: '';
+    margin: auto;
+    height: 2px;
+    width: 0;
+    background-color: white;
+    display: block;
+    transition: 0.5s;
+}
+.main-nav ul li:hover:after{
+    width: 100%;
+}
+.main-nav ul li a:hover{
+    color: white;
+}
+
+.header-content{
+    position: absolute;
+    top: 35%;
+    left: 35%
+}
+.header-content h1{
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px;
+}
+.header-content button{
+    margin: 5% 0 0 35%;
+    padding: 5px 20px;
+    font-size: 20px;
+    background-color: rgb(200, 222, 240);
+    text-shadow: 1px 1px 1px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.header-content button:hover{
+    background-color: black;
+    color: white;
+}
+
+.table{
+    font-size: 30px;
+    margin: auto;
+}
+.table tr td{
+    padding: 2px 50px;
+    text-align: left;
+}
+
+.food-menu li{
+    margin-left: 50px;
+    font-size: 30px;
+}

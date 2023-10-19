@@ -1,0 +1,19 @@
+doctype html 
+html 
+    head 
+        title Pug Project 
+        style 
+            include ../static/style.css
+        block style 
+        block script
+    body 
+        block head
+        header 
+            nav.main-nav 
+                ul
+                    li #[a(href="/") Home]
+                    li #[a(href="/") About]
+                    li #[a(href="/") Services]
+                    li #[a(href="/") Contact Us]
+
+            

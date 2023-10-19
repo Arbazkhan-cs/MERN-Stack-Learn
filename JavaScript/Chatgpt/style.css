@@ -1,0 +1,278 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav .menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav .menu li {
+    margin-left: 20px;
+  }
+  
+  nav .menu li a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+  }
+  
+  nav .menu li a:hover,
+  nav .menu li a.active {
+    border-bottom: 2px solid #fff;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url("https://images.unsplash.com/photo-1632402927127-63c2dce7a8db");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  /* About Section */
+  .about {
+    margin-top: 100px;
+  }
+  
+  /* Services Section */
+  .services {
+    margin-top: 100px;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .service-card {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .service-card i {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  .service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Section */
+  .contact {
+    margin-top: 100px;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+input:focus,
+textarea:focus {
+border-color: #333;
+outline: none;
+}
+
+.btn-form {
+background-color: #333;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+transition: all 0.3s ease;
+cursor: pointer;
+}
+
+.btn-form:hover {
+background-color: #fff;
+color: #333;
+}
+
+/* Footer Section */
+footer {
+background-color: #333;
+color: #fff;
+padding: 20px;
+margin-top: 100px;
+}
+
+.footer-links {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer-links a {
+text-decoration: none;
+color: #fff;
+margin: 0 10px;
+}
+
+.social-icons {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+
+.social-icons i {
+font-size: 2rem;
+margin: 0 10px;
+transition: all 0.3s ease;
+}
+
+.social-icons i:hover {
+transform: translateY(-5px);
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+main {
+padding: 30px;
+}
+
+.hero {
+height: 400px;
+}
+
+.hero-content h1 {
+font-size: 2rem;
+}
+
+.service-card {
+width: 100%;
+}
+}
+
+@media only screen and (max-width: 576px) {
+.hero {
+height: 300px;
+}
+
+.hero-content h1 {
+font-size: 1.5rem;
+}
+
+.service-card {
+margin: 10px;
+}
+
+form {
+justify-content: center;
+align-items: center;
+}
+
+.form-group {
+width: 100%;
+}
+
+input,
+textarea {
+margin-bottom: 10px;
+}
+}  

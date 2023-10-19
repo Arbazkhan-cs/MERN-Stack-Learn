@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+}
+html{
+    font-size: 67.4%;
+}
+.main-nav{
+    padding: 1.5rem 0rem;
+    background: black;
+}
+.main-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.main-nav ul li a{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}

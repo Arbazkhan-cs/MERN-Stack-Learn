@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    | <!-- This is how we add external css in pug, and pipe[|] is used to add a line -->
+    style
+        include style.css
+    <title>#{title}</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="main-nav">
+            <ul class="main-ul">
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contact Us</a></li>
+            </ul> 
+        </nav>
+    </header>
+    <div class="container">
+        <h1 class="heading">Fill the form to get 50% discount: Hurry! only 5 offers are available</h1>
+
+        <form action="/result" method="post" id="gym-form">
+            <input type="text" placeholder="Enter Your Name" name="name" required>
+            <input type="tel" placeholder="Enter Your Age" name="age" required>
+            
+            <input type="radio" value="gender" name="gender" class="gender" checked><span>Male</span>
+            <input type="radio" value="gender" name="gender" class="gender"><span>Female</span>
+            
+            <textarea name="address" id="address" cols="30" rows="2" placeholder="Address: xyz" required></textarea>
+            <input type="tel" placeholder="Mobile No.: +91 99XXXXXXXX" name="mobileNo"required>
+            <select name="Plan" id="price" required>
+                <option>Price</option>
+                <option>599/Week</option>
+                <option>1000/month</option>
+                <option>9999/year</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
